@@ -15,6 +15,7 @@ public class Ceil_of_aNumber {
         int target = sc.nextInt();
         int index_of_result = findCeil(arr,target);
         System.out.println(arr[index_of_result]);
+        sc.close();
     }
     public static int findCeil(int[] arr,int key){
         int start=0;

@@ -1,3 +1,5 @@
+package basicmaths;
+
 import java.util.*;
 public class RockPaperScissor {
     public static void main(String[] args) {

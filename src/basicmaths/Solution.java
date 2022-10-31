@@ -1,3 +1,5 @@
+package basicmaths;
+
 import java.util.*;
 
 public class Solution {

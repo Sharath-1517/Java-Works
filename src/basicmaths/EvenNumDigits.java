@@ -1,3 +1,5 @@
+package basicmaths;
+
 import java.util.*;
 
 public class EvenNumDigits {
@@ -11,6 +13,7 @@ public class EvenNumDigits {
             arr[i] = sc.nextInt();
         }
         System.out.println(retevenCount(arr));
+        sc.close();
     }
     static int retevenCount(int[] arr){
         int count=0;

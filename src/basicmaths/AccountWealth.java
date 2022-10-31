@@ -15,6 +15,7 @@ public class AccountWealth{
             }
         }
         System.out.println(maxWealth(arr));
+        sc.close();
     }
 
     static int maxWealth(int[][] arr){

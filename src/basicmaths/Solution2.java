@@ -1,3 +1,5 @@
+package basicmaths;
+
 import java.util.Scanner;
 
 public class Solution2 {
@@ -13,5 +15,6 @@ public class Solution2 {
         Scanner sc = new Scanner(System.in);
         String s = "leetcode";
         System.out.println(checkIfPangram(s));
+        sc.close();
     }
 }

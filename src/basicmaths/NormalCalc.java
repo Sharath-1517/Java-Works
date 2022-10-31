@@ -1,4 +1,6 @@
-import basicmaths.*;
+package basicmaths;
+
+// import basicmaths.*;
 import java.util.*;
 abstract class Car{
     abstract void display();

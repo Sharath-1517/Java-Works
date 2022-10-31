@@ -1,3 +1,5 @@
+package basicmaths;
+
 import java.util.*;
 
 public class MatrixEx {
@@ -9,5 +11,6 @@ public class MatrixEx {
             temp = temp + n;
             if(i==1) System.out.println("\n");
         }
+        sc.close();
     }
 }

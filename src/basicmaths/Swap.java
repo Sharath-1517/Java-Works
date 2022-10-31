@@ -1,3 +1,5 @@
+package basicmaths;
+
 public class Swap {
 
     static void swap(int[] arr,int s,int e){

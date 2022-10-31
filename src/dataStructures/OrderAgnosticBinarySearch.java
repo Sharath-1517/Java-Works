@@ -22,6 +22,7 @@ public class OrderAgnosticBinarySearch {
             System.out.println("Descending Order List...");
             System.out.println(DescBinarySearch(arr, n));
         }
+        sc.close();
     }
 
     static boolean isAsc(int[] arr){

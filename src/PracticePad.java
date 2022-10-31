@@ -19,5 +19,6 @@ public class PracticePad {
             }
         }
         System.out.println(count);
+        sc.close();
     }
 }

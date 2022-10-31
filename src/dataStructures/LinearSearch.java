@@ -23,5 +23,6 @@ public class LinearSearch {
             arr[i] = sc.nextInt();
         }
         if(linearSearch(arr, s)) System.out.println("Element exists...");
+        sc.close();
     }
 }
