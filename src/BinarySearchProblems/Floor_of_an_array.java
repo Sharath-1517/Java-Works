@@ -14,10 +14,22 @@ public class Floor_of_an_array {
 
         int target = sc.nextInt();
         int index_of_result = findCeil(arr,target);
-        System.out.println(arr[index_of_result]);
+        if(index_of_result == -1) {
+            System.out.println("No target found...");
+        }
+        else{
+            System.out.println(arr[index_of_result]);
+            }
         sc.close();
     }
+
+
+
     public static int findCeil(int[] arr,int key){
+
+        if (key > arr[arr.length - 1]) {
+            return -1;
+        }
         int start=0;
         int end = arr.length-1;
         while (start<=end){
